@@ -11,8 +11,8 @@ print_table([table::extract(&categs, |n| matches!(n, "Nl"))], [], "letter_number
 
 Produces this code:
 ```c
-#define UCD_LEN_TEST 12
-static struct unicode_range ucd_table_test[12] = {
+#define UCD_LEN_LETTER_NUMBER 12
+static struct unicode_range ucd_table_letter_number[12] = {
     {0x000016ee, 0x000016f0},
     {0x00002160, 0x00002182},
     {0x00002185, 0x00002188},
